@@ -27,19 +27,36 @@ var APP_ID = undefined; //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-u
  * Array containing space facts.
  */
 var FACTS = [
-    "A year on Mercury is just 88 days long.",
-    "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
-    "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
-    "On Mars, the Sun appears about half the size as it does on Earth.",
-    "Earth is the only planet not named after a god.",
-    "Jupiter has the shortest day of all the planets.",
-    "The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.",
-    "The Sun contains 99.86% of the mass in the Solar System.",
-    "The Sun is an almost perfect sphere.",
-    "A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.",
-    "Saturn radiates two and a half times more energy into space than it receives from the sun.",
-    "The temperature inside the Sun can reach 15 million degrees Celsius.",
-    "The Moon is moving approximately 3.8 cm away from our planet every year."
+    "Stan Lee who worked for Marvel as a writer for hire sued Marvel in 2005 because he was hurt by Marvel Comics’ decision to keep profits from him over his 60 years with the company.",
+    "In the early 1990’s, Michael Jackson tried to buy Marvel Comics just so that he could play Spider Man in his own produced movie.",
+    "Due to strange laws in USA, importing toys resembling humans are taxed higher than those that don’t. Marvel successfully argued in court that because their X-men action figures are mutants and therefore should be exempt from such higher tax..",
+    "There was a 1995 issue of Punisher called The Punisher Kills The Marvel Universe in which he killed every single Marvel superhero and villain, including himself.",
+    "Venom, the Spider-Man villain was a fan-based concept that Marvel bought for $220.",
+    "During the production of the Avengers movie, they couldn’t get the Hulk’s roar to sound just right; so they decided to supplement it with recordings of Lou Ferrigno bellowing as the original Hulk.",
+    "There is a Marvel super hero called Squirrel Girl, who once beat Doctor Doom by flooding his aircraft with a swarm of squirrels.",
+    "In 2002, a 4-year-old boy suffering from hearing loss didn’t want to wear a hearing aid because 'Super heroes don’t.' To get him to wear his hearing aids, Marvel Comics created a super hero with a hearing aid,  Blue Ear.",
+    "Marvel has a superhero named Throg. He is a frog that has the power of Thor and is in a superhero group called the Pet Avengers.",
+    "In 1983, Marvel published a comic about 'Your friendly neighborhood Spider-Ham'. He was a 'Spider-Pig' named Peter-Porker.",
+    "In 1996, Marvel and DC comics created Amalgam Comics that joined their two universes together, thus resulting in characters such as Darkclaw (Batman/Wolverine), Super Soldier (Superman/Captain America), and Iron Lantern (Green Lantern/Iron Man).",
+    "There is a Marvel Character called Asbestos Lady, who robbed banks with her accomplices, who (like her) all wore asbestos lined clothing. She later died of cancer.",
+    "In the 1970s, Planned Parenthood teamed up with Marvel Comics to release the strangest Spiderman comic that discouraged teens from having unprotected sex.",
+    "Apart from writing for Marvel, Stan Lee also wrote 15 DC comics, reimagined popular superheroes like Batman and Superman.",
+    "When the character of Nick Fury was re-introduced into the Ultimate Marvel comics, he was redesigned to resemble Samuel L Jackson, without the actor’s permission to use his image. It wasn’t until Samuel himself saw his resemblance in the comic that he contacted Marvel to secure a role in any future Marvel movies.",
+    "Marvel’s Deadpool (Wade Wilson) was originally created as a spoof of DC’s Deathstroke (Slade Wilson).",
+    "Mr. Immortal is a Marvel character with no special powers except immortality. He has been killed in ways including shot, suffocated, stabbed, drowned, crushed, starved, dehydrated, exploded, poisoned, decapitated, irradiated and incinerated.",
+    "There is a fictional company in the Marvel universe called “Damage Control”. It specializes in cleaning up the mess that superheroes and super villains leave behind. ",
+    "The reason Spider-Man wasn’t a part of the Avengers movie is because Marvel sold the rights to Sony.",
+    "Spider-man married Mary Jane in 1987, for which Marvel held a publicity event featuring actors dressed like Spider-Man and Mary Jane getting married in Shea Stadium.",
+    "Eminem is a character in the Marvel universe. ",
+    "From 1975 to 1996, Marvel had trademarked the word, “zombies”. Perhaps understanding that this trademark wasn’t enforceable, in 1996 they registered Marvel Zombies.",
+    "'Deadpool' has regularly broken the fourth wall. (He knew that he was in comic books). This was due to his 'Comic Awareness,' which was a pun about Captain Marvel’s 'Cosmic Awareness'. ",
+    "Despite all the Gods that roam the universe, Marvel Universe lived under one true God called One-Above-All. ",
+    "Eleven days before the 9/11 attacks, a character named Jihad was introduced into the Marvel Universe. He was a character, who was bent on world conquest. ",
+    "Iron Man was created by Stan Lee as a challenge to create a hero that no one should like and force people to like him. ",
+    "In 2003, Marvel Comics announced it was planning to publish a five-part series entitled ‘Di Another Day’ featuring a resurrected Diana (The Princess of Wales), as a mutant with superpowers.",
+    "Darth Vader was inspired by Marvel’s Dr. Doom. ",
+    "The spider that bites Tobey Maguire in ‘Spider-Man’ was chosen after a 'Spider Olympics,' and was then painted with body paint when time didn’t allow for a spider costume to be created. ",
+    "Marvel created a character named Irene Adler (after the Sherlock Holmes’ character), who was supposed to be Mystique’s lover. Marvel wasn’t allowed to portray a gay relationship, so they made them to be friends, but later announced that they were a couple."
 ];
 
 /**
@@ -119,4 +136,3 @@ exports.handler = function (event, context) {
     var fact = new Fact();
     fact.execute(event, context);
 };
-
